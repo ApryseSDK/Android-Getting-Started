@@ -42,6 +42,11 @@ public class PTTestActivity extends Activity {
             doc = new PDFDoc(is);
             // Or you can use the full path instead
             //doc = new PDFDoc("/mnt/sdcard/sample_doc.pdf");
+            
+            // Opening a password protectd document...
+            //if (!doc.initStdSecurityHandler("the password")) {
+            //    return; // Wrong password...
+            //}
         } catch (PDFNetException e) {
             doc = null;
             e.printStackTrace();
