@@ -20,6 +20,7 @@ public class PTTestActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         // Initialize the library
         try {
             PDFNet.initialize(this, R.raw.pdfnet);
