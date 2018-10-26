@@ -1,3 +1,5 @@
+# DECRECATED - Please refer to the new repository [here](https://github.com/PDFTron/pdf-viewer-android)
+
 Getting started with Android: Basic Tutorial
 ===================
 
